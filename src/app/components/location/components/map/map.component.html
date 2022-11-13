@@ -1,0 +1,9 @@
+
+<button *ngIf="isLogedin" (click)="signOut()">Sign Out </button>
+<button *ngIf="!isLogedin" (click)="signIn()">Sign In </button>
+
+<div class="map-container">
+    <div class="map-frame">
+      <div id="map"></div>
+    </div>
+  </div>
